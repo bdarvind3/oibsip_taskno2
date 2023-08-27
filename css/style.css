@@ -1,0 +1,258 @@
+.services{
+  background: linear-gradient(135deg, #1a1103, #a85b03, #1a1103);
+  background-image: url(../img/services_back.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
+}
+
+footer{
+  background:linear-gradient(135deg, #1a1103, #280b91);
+  background-color:#184e8e;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.portfolio{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 5px;
+}
+
+.about-me-main{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+a#msg {
+  font-size: 11px;
+  font-family: arial;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 5px 0;
+  border-bottom: 2px dotted lightgrey;
+}
+#googlemaps {
+  height: 400px;
+  width: 100%;
+  position: inherit;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  opacity: 0.75;
+}
+#info {
+  position: relative;
+  z-index: 1;
+  width: 300px;
+  margin: 50px auto 0;
+}
+
+.about-me{
+  margin: 25px;
+}
+.name{
+  color:red;
+  font-weight: bold;
+}
+.header{
+  background:linear-gradient(135deg, #1a1103, #280b91);
+  background-color:#184e8e;
+  padding-bottom:80px;
+  font-family:'Source Sans Pro', sans-serif;
+}
+
+.my-services{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .header {
+    padding-bottom:120px;
+  }
+}
+
+.header .navbar {
+  background:transparent;
+  padding-top:.75rem;
+  padding-bottom:.75rem;
+  color:#fff;
+  border-radius:0;
+  box-shadow:none;
+  border:none;
+}
+
+@media (min-width:768px) {
+  .header .navbar {
+    padding-top:1rem;
+    padding-bottom:1rem;
+  }
+}
+
+.header .navbar .navbar-brand {
+  font-weight:bold;
+  font-size: 30px;
+  color:inherit;
+  font-family: 'Expletus Sans', cursive;
+}
+
+.header .navbar .navbar-brand:hover {
+  color:#f0f0f0;
+}
+
+.header .navbar .navbar-collapse {
+  border-top:1px solid rgba(255,255,255,0.3);
+  margin-top:.5rem;
+}
+
+@media (min-width:768px) {
+  .header .navbar .navbar-collapse {
+    border-color:transparent;
+    margin:0;
+  }
+}
+
+.header .navbar .navbar-collapse span .login {
+  color:#d9d9d9;
+  margin-right:.5rem;
+  text-decoration:none;
+}
+
+.header .navbar .navbar-collapse span .login:hover {
+  color:#fff;
+}
+
+.header .navbar .navbar-toggler {
+  border-color:rgba(255,255,255,0.3);
+}
+
+.header .navbar .navbar-toggler:hover, .header .navbar-toggler:focus {
+  background:none;
+}
+
+.header .navbar .navbar-nav a.active, .header .navbar .navbar-nav > .show .dropdown-item {
+  background:none;
+  box-shadow:none;
+}
+
+@media (min-width: 768px) {
+  .header .navbar-nav .nav-link {
+    padding-left:.7rem;
+    padding-right:.7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .header .navbar-nav .nav-link {
+    padding-left:1.2rem;
+    padding-right:1.2rem;
+  }
+}
+
+.header .navbar .navbar-nav > li > .dropdown-menu {
+  margin-top:-5px;
+  box-shadow:0 4px 8px rgba(0,0,0,.1);
+  background-color:#fff;
+  border-radius:2px;
+}
+.header .hero {
+  margin-top:20px;
+  text-align:center;
+}
+
+@media (min-width:768px) {
+  .header .hero {
+    margin-top:60px;
+    text-align:left;
+  }
+}
+
+.header .hero h1 {
+  color:#fff;
+  font-size:40px;
+  margin-top:0;
+  margin-bottom:15px;
+  font-weight:300;
+  line-height:1.4;
+}
+
+@media (min-width:992px) {
+  .header .hero h1 {
+    margin-top:190px;
+    margin-bottom:24px;
+    line-height:1.2;
+  }
+}
+
+.header .hero p {
+  color:rgba(255,255,255,0.8);
+  font-size:20px;
+  margin-bottom:30px;
+  font-weight:300;
+}
+
+.header .phone-holder {
+  text-align:right;
+}
+
+.header div.frame-mockup {
+  position:relative;
+  max-width:500px;
+  margin:20px;
+  display:inline-block;
+}
+
+.header .frame-mockup img.device {
+  width:100%;
+  height:auto;
+}
+
+.header .frame-mockup .screen {
+  position:absolute;
+  width:88%;
+  height:77%;
+  top:12%;
+  border-radius:2px;
+  left:6%;
+  border:1px solid #444;
+  background-color:#aaa;
+  overflow:hidden;
+  background:url(../img/my_photo.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+.header .iphone-mockup .screen:before {
+  content:'';
+  background-color:#fff;
+  position:absolute;
+  width:70%;
+  height:140%;
+  top:-12%;
+  right:-60%;
+  transform:rotate(-19deg);
+  opacity:0.2;
+}
+
